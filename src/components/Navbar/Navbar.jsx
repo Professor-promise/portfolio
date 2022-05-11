@@ -17,7 +17,6 @@ const Container = styled.nav`
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
     z-index: 999;
     background: var(--mainBackground);
 
@@ -31,7 +30,6 @@ const Container = styled.nav`
         display: flex;
         flex-direction: column;
         background: var(--lightBackground);
-        width: 100%;
         padding: 1rem 2rem;
         display: none;
         justify-content: center;

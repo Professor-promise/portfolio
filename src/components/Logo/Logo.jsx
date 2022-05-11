@@ -4,7 +4,9 @@ import logo from '../../img/logo_8.png';
 
 const Container = styled.div`
   height: 20rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
+  display: flex;
+  align-items: flex-start;
 
   a {
     text-decoration: none;

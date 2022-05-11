@@ -9,22 +9,23 @@ const Container = styled.div`
   justify-content: center;
   align-items: flex-start;
   flex-direction: column-reverse;
+  margin-left: 0.5rem;
 
   .desc {
     border-radius: 0.7rem;
     background: var(--mainBackground);
     box-shadow: var(--boxShadow);
-    height: 20rem;
-    width: 25rem;
+    height: 15rem;
+    width: 18rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* gap: 0.5rem; */
-    margin-left: 2rem;
+    margin-left: 1rem;
 
     p {
-      font-size: 1rem;
+      font-size: 0.9rem;
       margin-top: 0.5rem;
       color: var(--lightGreyBackground);
     }
