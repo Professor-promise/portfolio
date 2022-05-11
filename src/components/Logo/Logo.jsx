@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import logo from '../../img/logo_8.png';
 
 const Container = styled.div`
-  height: 20rem;
-  padding: 1rem 0;
   display: flex;
   align-items: flex-start;
 
@@ -14,7 +12,6 @@ const Container = styled.div`
 
     img {
       width: 60%;
-      height: 100%;
       object-fit: contain;
       display: block;
       transform: scale(0.4);

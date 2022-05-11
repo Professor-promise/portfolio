@@ -14,12 +14,12 @@ const Container = styled.footer`
 
   .footer {
     display: flex;
-    margin-top: -4rem;
+    /* margin-top: -4rem; */
     align-items: center;
 
     .logo {
       flex: 1;
-      margin-left: -3rem;
+      margin-left: -1rem;
     }
     .links {
       flex: 1;
@@ -33,12 +33,12 @@ const Container = styled.footer`
     row-gap: 0.5rem;
     padding: 1rem;
     flex-wrap: wrap;
-    margin-top: -8rem;
+    margin-top: -1rem;
     justify-content: center;
     align-items: center;
     a {
       text-decoration: none;
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       color: var(--greenBackground);
       border-right: 0.125rem solid var(--greenBackground);
       padding-right: 1rem;
@@ -48,7 +48,7 @@ const Container = styled.footer`
     }
   }
   p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     text-transform: capitalize;
   }
@@ -118,7 +118,7 @@ const Footer = () => {
     <Container>
       <div className='footer'>
         <div className='logo'>
-          <Logo scale='scale(0.4)' />
+          <Logo scale='scale(0.3)' />
         </div>
         <div className='links'>
           <LinkContainer
@@ -127,8 +127,8 @@ const Footer = () => {
             top='0'
             border='0'
             left='0'
-            fontSize='2.5rem'
-            gap='2rem'
+            fontSize='2rem'
+            gap='1.2rem'
           />
         </div>
       </div>

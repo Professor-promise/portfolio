@@ -6,7 +6,7 @@ import { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const Container = styled.div`
-  height: 80vh;
+  height: 100vh;
   padding: var(--sectionPadding);
   background: var(--lightBackground);
   display: flex;
@@ -17,24 +17,26 @@ const Container = styled.div`
     width: 100%;
     background: var(--greenBackground);
     border-radius: 0.8rem;
-    padding: 0.5rem 2rem;
-    height: 55vh;
+    padding: 0.5rem 1rem;
+    height: 100%;
 
     form {
       margin-top: 1rem;
       display: flex;
-      gap: 2rem;
-      height: 14rem;
+      flex-direction: column;
+      gap: 1.5rem;
+      height: 78%;
 
       .message {
         flex: 0.6;
+        padding: 1rem;
         width: 100%;
-        height: 100%;
         outline: 0;
         border: 0;
         border-radius: 0.4rem;
         font-size: 1.3rem;
-        padding: 1rem;
+        height: 100%;
+        text-align: left;
         resize: none;
       }
 
@@ -43,12 +45,12 @@ const Container = styled.div`
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        height: 100%;
+        /* height: 100%; */
         gap: 1.5rem;
 
         input {
           height: 3rem;
-          padding: 1rem;
+          padding: 0.8rem;
           outline: 0;
           border: 0;
           border-radius: 0.4rem;
@@ -84,13 +86,14 @@ const Container = styled.div`
       background: var(--greenBackground);
       border-radius: 0.8rem;
       padding: 1rem 4rem;
-      height: 70vh;
+      height: 100%;
 
       form {
         margin-top: 2rem;
         display: flex;
+        flex-direction: row;
         gap: 2rem;
-        height: 16rem;
+        height: 60%;
 
         .message {
           flex: 0.6;
@@ -181,6 +184,7 @@ const Contact = () => {
         <Header
           description='Have Any Project in Mind?'
           color='var(--mainBackground)'
+          fontSize='1.35rem'
         />
         <form onSubmit={sendEmail} ref={form}>
           <textarea

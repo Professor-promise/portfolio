@@ -7,19 +7,25 @@ import { motion } from 'framer-motion';
 
 const Container = styled.nav`
   .navbar {
-    height: 5rem;
-    display: flex;
-    gap: 1rem;
     justify-content: space-between;
     align-items: center;
     padding: var(--sectionPadding);
-    z-index: 3;
-    position: fixed;
-    top: 0;
-    left: 0;
+    height: 4rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 999;
     background: var(--mainBackground);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    max-width: 100vw;
 
+    .logo {
+      margin-left: -3rem;
+    }
     .navlinks__container {
       .links {
         list-style: none;
@@ -31,13 +37,14 @@ const Container = styled.nav`
         flex-direction: column;
         background: var(--lightBackground);
         padding: 1rem 2rem;
-        display: none;
         justify-content: center;
         align-items: center;
         background: rgba(255, 255, 255, 0.2);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(20px);
         border: 1px solid rgba(255, 255, 255, 0.3);
+        width: 100%;
+        display: none;
 
         a {
           display: flex;
@@ -156,7 +163,7 @@ const Navbar = () => {
     <Container>
       <div className={navbar ? 'navbar active' : 'navbar'}>
         <div className='logo'>
-          <Logo />
+          <Logo scale='scale(0.3)' />
         </div>
         <div className='navlinks__container'>
           <li className={!toggle ? 'links show__link' : 'links'}>

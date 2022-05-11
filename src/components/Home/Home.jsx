@@ -4,7 +4,7 @@ import LinkContainer from '../LinkContainer/LinkContainer';
 import { motion } from 'framer-motion';
 
 const Container = styled.div`
-  height: 120vh;
+  height: 150vh;
   background: var(--mainBackground);
   display: flex;
   justify-content: space-between;
@@ -81,12 +81,13 @@ const Container = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
+
       img {
         width: 20rem;
         height: 100%;
         display: inline-block;
         object-fit: contain;
-        transform: scale(1.4);
+        transform: scale(1.3);
       }
     }
   }
@@ -288,7 +289,7 @@ const Home = () => {
         </div>
       </motion.div>
       <motion.div
-        initial={{ x: '500px' }}
+        initial={{ x: '100%' }}
         whileInView={{ x: '0' }}
         transition={{ duration: 1 }}
         className='hero'
