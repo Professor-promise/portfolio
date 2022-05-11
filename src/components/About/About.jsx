@@ -152,7 +152,7 @@ const About = () => {
             <ProgressBar value={90} title='HTML/CSS' />
           </div>
           <div>
-            <ProgressBar value={75} title='Photo Manipulation' />
+            <ProgressBar value={75} title='React' />
           </div>
         </div>
       </div>
