@@ -86,15 +86,6 @@ const Experience = () => {
       </div>
       <div className='exp__container'>
         <WorkContainer
-          desc_1='Designed both fliers, flex and handbills.'
-          desc_2='Typing of projects and others.'
-          count='01'
-          title='Graphic Designer'
-          work_desc='Dechosen Computers'
-          exp='February, 2017 - November, 2018'
-          alignment='left'
-        />
-        <WorkContainer
           desc_1='Developed new features and applications using React/Redux.'
           desc_2='Optimized components for maximum performance across a vast array of
           devices and browsers.'
@@ -105,6 +96,15 @@ const Experience = () => {
           work_desc='Pluralsight Internship in Collaboration with 
           Andela Company (#Buildforsdg)'
           exp='April, 2019 - December, 2019'
+          alignment='left'
+        />
+        <WorkContainer
+          desc_1='Designed both fliers, flex and handbills.'
+          desc_2='Typing of projects and others.'
+          count='01'
+          title='Graphic Designer'
+          work_desc='Dechosen Computers'
+          exp='February, 2017 - November, 2018'
           reverse='row-reverse'
           alignment='right'
           left='4rem'

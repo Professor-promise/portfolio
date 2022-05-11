@@ -20,8 +20,8 @@ export const links = [
     url: '#portfolio',
   },
   {
-    id: 'experience',
-    text: 'Experience',
-    url: '#experience',
+    id: 'contact',
+    text: 'Contact',
+    url: '#contact',
   },
 ];

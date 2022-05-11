@@ -14,7 +14,6 @@ const Container = styled.footer`
 
   .footer {
     display: flex;
-    margin-top: -4rem;
     align-items: center;
 
     .logo {
