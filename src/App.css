@@ -1,0 +1,28 @@
+:root {
+  --mainBackground: #f9f9f9;
+  --lightBackground: #ffffff;
+  --cardBackground: #f3eeee;
+  --lightGreyBackground: #787777;
+  --overlayBackground: #7979795c;
+  --greenBackground: #00a78e;
+  --lightGreenBackground: #26c3ac;
+  --darkBackground: #0a0a0a;
+  --boxShadow: 0rem 0 0.9rem 0 var(--lightGreyBackground);
+  --padding: 3rem 8rem;
+  --transition: all 1s ease-out;
+  --smallPadding: 3rem 4rem;
+  --sectionPadding: 3rem 1.5rem;
+}
+
+.App {
+  background: var(--mainBackground);
+  height: 100vh;
+  position: relative;
+}
+
+h3,
+h2,
+h1,
+h4 {
+  font-weight: 400;
+}
