@@ -137,9 +137,9 @@ const About = () => {
         <p>
           Skilled and motivated front-end developer. I am courteous and
           enthusiastic. I am interested in IT and everything in its orbit. I
-          recently began to be fascinated by web programming e.g. developing
-          apps and building websites. I am currently looking for a job or an
-          internship as a frontend developer.
+          began to be fascinated by web programming e.g. developing apps and
+          building websites. I am currently looking for a job or an internship
+          as a frontend developer.
         </p>
         <div className='progress__bar'>
           <div>
@@ -152,7 +152,7 @@ const About = () => {
             <ProgressBar value={90} title='HTML/CSS' />
           </div>
           <div>
-            <ProgressBar value={75} title='React' />
+            <ProgressBar value={85} title='React' />
           </div>
         </div>
       </div>
