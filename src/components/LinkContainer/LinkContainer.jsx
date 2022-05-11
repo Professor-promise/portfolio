@@ -9,8 +9,8 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   gap: ${(props) => props.gap || '2.3rem'};
-  top: ${(props) => props.top || '1rem'};
-  left: ${(props) => props.left || '-5rem'};
+  top: ${(props) => props.top || '0rem'};
+  left: ${(props) => props.left || '-6rem'};
   cursor: pointer;
   border: ${(props) =>
     props.border || '0.145rem solid var(--lightGreyBackground)'};
