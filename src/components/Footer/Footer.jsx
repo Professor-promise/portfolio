@@ -14,7 +14,7 @@ const Container = styled.footer`
 
   .footer {
     display: flex;
-    /* margin-top: -4rem; */
+    margin-top: -4rem;
     align-items: center;
 
     .logo {
@@ -64,8 +64,9 @@ const Container = styled.footer`
 
     .footer {
       display: flex;
-      margin-top: -4rem;
       align-items: center;
+      justify-content: center;
+      height: 15vh;
 
       .logo {
         flex: 1;
@@ -73,7 +74,7 @@ const Container = styled.footer`
       }
       .links {
         flex: 1;
-        margin-left: -6rem;
+        margin-left: -80%;
       }
     }
 
@@ -81,7 +82,7 @@ const Container = styled.footer`
       display: flex;
       gap: 2rem;
       padding: 1rem;
-      margin-top: -5rem;
+
       a {
         text-decoration: none;
         font-size: 1.3rem;
@@ -118,7 +119,7 @@ const Footer = () => {
     <Container>
       <div className='footer'>
         <div className='logo'>
-          <Logo scale='scale(0.3)' />
+          <Logo scale='scale(0.11)' />
         </div>
         <div className='links'>
           <LinkContainer

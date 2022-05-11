@@ -10,7 +10,8 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  height: 155vh;
+  /* height: 130vh; */
+  padding-bottom: 8rem;
 
   .exp__container {
     display: flex;

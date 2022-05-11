@@ -176,7 +176,7 @@ const Contact = () => {
       style={{ backgroundImage: `url(${pattern})` }}
       id='contact'
       as={motion.div}
-      initial={{ y: '-300px' }}
+      initial={{ y: '250px' }}
       whileInView={{ y: '0' }}
       transition={{ duration: 1 }}
     >

@@ -5,8 +5,8 @@ import { MdVisibility } from 'react-icons/md';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 18rem;
-  height: 20rem;
+  width: 100%;
+  height: 100%;
   gap: 1rem;
   border: 0.125rem solid var(--mainBackground);
   padding: 0 1rem;
@@ -14,8 +14,8 @@ const Container = styled.div`
   overflow: hidden;
 
   .projects__container {
-    height: 18rem;
-    width: 20rem;
+    height: 100%;
+    width: 100%;
     /* background: var(--mainBackground); */
     overflow: hidden;
 
@@ -76,8 +76,8 @@ const Container = styled.div`
   }
 
   @media screen and (min-width: 760px) {
-    height: 25rem;
-    width: 30rem;
+    height: 100%;
+    width: 100%;
     .projects__container {
       height: 25rem;
       width: 30rem;
@@ -142,8 +142,8 @@ const Container = styled.div`
   }
   @media screen and (min-width: 992px) {
     /* padding: var(--padding); */
-    width: 38rem;
-    height: 30rem;
+    width: 100%;
+    height: 100%;
     .projects__container {
       height: 22rem;
       width: 38rem;

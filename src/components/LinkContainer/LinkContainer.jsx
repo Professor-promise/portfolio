@@ -25,6 +25,12 @@ const Container = styled.div`
       color: var(--lightGreenBackground);
     }
   }
+
+  @media screen and (min-width: 992px) {
+    svg {
+      font-size: 2.5rem;
+    }
+  }
 `;
 
 const LinkContainer = ({

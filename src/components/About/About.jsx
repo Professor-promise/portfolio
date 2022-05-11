@@ -15,6 +15,7 @@ const Container = styled.div`
   flex-direction: column;
 
   .image__container {
+    display: none;
     .image {
       height: 100%;
       height: 25rem;
@@ -45,6 +46,7 @@ const Container = styled.div`
   @media screen and (min-width: 768px) {
     padding: var(--smallPadding);
     .image__container {
+      display: none;
       .image {
         height: 100%;
         height: 25rem;
@@ -82,6 +84,7 @@ const Container = styled.div`
 
     .image__container {
       flex: 0.4;
+      display: flex;
 
       .image {
         height: 40rem;

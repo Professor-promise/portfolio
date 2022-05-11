@@ -6,11 +6,12 @@ const Container = styled.div`
   align-items: ${(props) => props.alignment};
 
   h4 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 500;
     color: var(--greenBackground);
   }
   h5 {
+    line-height: 1.5rem;
     font-size: ${(props) => props.fontSize || '2rem'};
     font-weight: 300;
     padding: 0.5rem 0;

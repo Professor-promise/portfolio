@@ -53,6 +53,7 @@ const Container = styled.div`
       .swiper {
         width: 100%;
         cursor: pointer;
+        margin: 0 auto;
       }
       .swiper-slide {
         display: flex;
@@ -113,8 +114,8 @@ const Portfolio = () => {
     <Container
       id='portfolio'
       as={motion.div}
-      initial={{ x: '400px' }}
-      whileInView={{ x: '0' }}
+      initial={{ y: '80%' }}
+      whileInView={{ y: '0' }}
       transition={{ duration: 1 }}
     >
       <div className='content'>
@@ -122,11 +123,16 @@ const Portfolio = () => {
       </div>
       <div className='projects'>
         <Swiper
-          slidesPerView={2}
+          slidesPerView={1}
           className='mySwiper'
           modules={[Pagination]}
           pagination={{ clickable: 'true' }}
           rewind={true}
+          breakpoints={{
+            768: {
+              slidesPerView: 2,
+            },
+          }}
         >
           <SwiperSlide>
             <Projects

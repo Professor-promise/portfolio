@@ -163,7 +163,7 @@ const Navbar = () => {
     <Container>
       <div className={navbar ? 'navbar active' : 'navbar'}>
         <div className='logo'>
-          <Logo scale='scale(0.3)' />
+          <Logo scale='scale(0.2)' />
         </div>
         <div className='navlinks__container'>
           <li className={!toggle ? 'links show__link' : 'links'}>

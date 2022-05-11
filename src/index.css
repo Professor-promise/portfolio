@@ -15,6 +15,10 @@ body {
   scroll-behavior: smooth;
 }
 
+#root {
+  width: 100% !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

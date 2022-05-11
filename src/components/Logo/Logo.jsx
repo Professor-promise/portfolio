@@ -5,6 +5,8 @@ import logo from '../../img/logo_8.png';
 const Container = styled.div`
   display: flex;
   align-items: flex-start;
+  outline: 0;
+  border: 0;
 
   a {
     text-decoration: none;
