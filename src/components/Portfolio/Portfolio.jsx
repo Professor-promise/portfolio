@@ -4,6 +4,7 @@ import Projects from '../Projects/Projects';
 import frontend_landing from '../../img/bootstrap_landing_page.PNG';
 import phone_store from '../../img/dubem_phonestore.PNG';
 import react_notes from '../../img/dubem_react_note.PNG';
+import linkedin_clone from '../../img/linkedin.PNG';
 import dubem_furniture_page from '../../img/dubem_furniture_page.PNG';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
@@ -141,6 +142,15 @@ const Portfolio = () => {
               desc='Web Development'
               web_link='https://dubem-notesapp.netlify.app/'
               github_link='https://github.com/Professor-promise/Notes'
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Projects
+              img={linkedin_clone}
+              title='Linkedin Clone'
+              desc='Web Development'
+              web_link='https://dubem-linkedin-clone.netlify.app/'
+              github_link='https://github.com/Professor-promise/linkedin-clone'
             />
           </SwiperSlide>
           <SwiperSlide>
