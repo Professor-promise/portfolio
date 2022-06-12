@@ -149,7 +149,7 @@ const Portfolio = () => {
               img={linkedin_clone}
               title='Linkedin Clone'
               desc='Web Development'
-              web_link='https://dubem-linkedin-clone.netlify.app/'
+              web_link='https://dubem-linkedin-clone.vercel.app/'
               github_link='https://github.com/Professor-promise/linkedin-clone'
             />
           </SwiperSlide>
