@@ -5,6 +5,7 @@ import frontend_landing from '../../img/bootstrap_landing_page.PNG';
 import phone_store from '../../img/dubem_phonestore.PNG';
 import react_notes from '../../img/dubem_react_note.PNG';
 import linkedin_clone from '../../img/linkedin.PNG';
+import image_gallery from '../../img/dubem_image_gallery.PNG';
 import dubem_furniture_page from '../../img/dubem_furniture_page.PNG';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
@@ -151,6 +152,15 @@ const Portfolio = () => {
               desc='Web Development'
               web_link='https://dubem-linkedin-clone.vercel.app/'
               github_link='https://github.com/Professor-promise/linkedin-clone'
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Projects
+              img={image_gallery}
+              title='Image Gallery'
+              desc='Web Development with React + Firebase'
+              web_link='https://dubem-image-gallery.vercel.app/'
+              github_link='https://github.com/Professor-promise/image-gallery-project'
             />
           </SwiperSlide>
           <SwiperSlide>

@@ -125,7 +125,6 @@ const Container = styled.div`
         align-items: center;
         justify-content: center;
         visibility: visible;
-        visibility: visible;
 
         .icons {
           display: flex;
@@ -186,7 +185,8 @@ const Container = styled.div`
         height: 100%;
         width: 100%;
         position: absolute;
-        left: 2rem;
+        left: 0;
+        top: 0;
         background: var(--overlayBackground);
         border-radius: 1rem;
         display: flex;

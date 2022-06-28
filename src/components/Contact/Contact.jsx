@@ -164,6 +164,7 @@ const Contact = () => {
           setMessage('');
           setName('');
           setEmail('');
+          alert('Thank you for contacting me');
         },
         (error) => {
           console.log(error);
