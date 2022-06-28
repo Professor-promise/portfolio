@@ -23,21 +23,27 @@ const Container = styled.div`
 
   progress[value] {
     -webkit-appearance: none;
+    -moz-appearance: none;
     appearance: none;
     width: 100%;
+    border-radius: 0.7rem;
+    background: #bf546845;
+    height: 1rem;
   }
 
   progress[value]::-webkit-progress-bar {
-    height: 0.8rem;
-    background: var(--lightGreyBackground);
-    background: #bf546845;
     border-radius: 7rem;
+    background: #bf546845;
   }
 
   progress[value]::-webkit-progress-value {
-    height: 0.8rem;
     background: var(--greenBackground);
     border-radius: 0.7rem;
+  }
+
+  progress[value]::-moz-progress-bar {
+    border-radius: 7rem;
+    background: var(--greenBackground);
   }
 `;
 

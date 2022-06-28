@@ -4,7 +4,6 @@ import Logo from '../Logo/Logo';
 import { links } from '../Navbar/data';
 
 const Container = styled.footer`
-  height: 50vh;
   padding: var(--sectionpadding);
   background: var(--mainBackground);
   display: flex;
@@ -140,7 +139,7 @@ const Footer = () => {
         ))}
       </div>
       <p>
-        copyright &copy; {new Date().getFullYear()} <span>[dubem]</span>
+        copyright &copy; {new Date().getFullYear()} <span>[08142407972]</span>
       </p>
     </Container>
   );
